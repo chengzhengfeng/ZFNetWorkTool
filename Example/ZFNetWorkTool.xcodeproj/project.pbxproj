@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		283D7ECC513A228E1B8B7E5E /* libPods-ZFNetWorkTool_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B377B3BABBB10BB3212ABB9C /* libPods-ZFNetWorkTool_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -22,8 +23,6 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		B6207112DDCFC8FC7DB7B621 /* Pods_ZFNetWorkTool_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADFECD41F8846C7F4886843F /* Pods_ZFNetWorkTool_Tests.framework */; };
-		D0E34866CE95CB5A854C7AA2 /* Pods_ZFNetWorkTool_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4291418BBE883ADC03211444 /* Pods_ZFNetWorkTool_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +40,6 @@
 		06DE4A3A54B00206A5CFA879 /* ZFNetWorkTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZFNetWorkTool.podspec; path = ../ZFNetWorkTool.podspec; sourceTree = "<group>"; };
 		22BB329136823A005F30839A /* Pods-ZFNetWorkTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZFNetWorkTool_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZFNetWorkTool_Example/Pods-ZFNetWorkTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		22DD6D23C0C96A6CA7ACB6D6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		4291418BBE883ADC03211444 /* Pods_ZFNetWorkTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZFNetWorkTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* ZFNetWorkTool_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZFNetWorkTool_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,8 +62,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ADFECD41F8846C7F4886843F /* Pods_ZFNetWorkTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZFNetWorkTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D563E88C05B417405DD51CBC /* Pods-ZFNetWorkTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZFNetWorkTool_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZFNetWorkTool_Tests/Pods-ZFNetWorkTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E81D96A49AC29BAFBD19D4B4 /* Pods-ZFNetWorkTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZFNetWorkTool_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZFNetWorkTool_Tests/Pods-ZFNetWorkTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B377B3BABBB10BB3212ABB9C /* libPods-ZFNetWorkTool_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZFNetWorkTool_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE208265CAF91466EAB47401 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +74,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				D0E34866CE95CB5A854C7AA2 /* Pods_ZFNetWorkTool_Example.framework in Frameworks */,
+				283D7ECC513A228E1B8B7E5E /* libPods-ZFNetWorkTool_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +85,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				B6207112DDCFC8FC7DB7B621 /* Pods_ZFNetWorkTool_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +96,6 @@
 			children = (
 				22BB329136823A005F30839A /* Pods-ZFNetWorkTool_Example.debug.xcconfig */,
 				014DA7D3975A404DD296642D /* Pods-ZFNetWorkTool_Example.release.xcconfig */,
-				D563E88C05B417405DD51CBC /* Pods-ZFNetWorkTool_Tests.debug.xcconfig */,
-				E81D96A49AC29BAFBD19D4B4 /* Pods-ZFNetWorkTool_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -134,8 +128,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				4291418BBE883ADC03211444 /* Pods_ZFNetWorkTool_Example.framework */,
 				ADFECD41F8846C7F4886843F /* Pods_ZFNetWorkTool_Tests.framework */,
+				B377B3BABBB10BB3212ABB9C /* libPods-ZFNetWorkTool_Example.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -223,12 +217,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "ZFNetWorkTool_Tests" */;
 			buildPhases = (
-				A18A4FDAA910FC16D78D063E /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				26B568D7BF54371F07E8E875 /* [CP] Embed Pods Frameworks */,
-				6B4CC3E504F59FD25467B37D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -297,21 +288,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		26B568D7BF54371F07E8E875 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZFNetWorkTool_Tests/Pods-ZFNetWorkTool_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		2C9116D61D8F124420709600 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -325,21 +301,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZFNetWorkTool_Example/Pods-ZFNetWorkTool_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6B4CC3E504F59FD25467B37D /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZFNetWorkTool_Tests/Pods-ZFNetWorkTool_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		756E9011B6D277AB99F5BD64 /* [CP] Embed Pods Frameworks */ = {
@@ -358,24 +319,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZFNetWorkTool_Example/Pods-ZFNetWorkTool_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A18A4FDAA910FC16D78D063E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ZFNetWorkTool_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C05F48E085EB5FF639A88274 /* [CP] Check Pods Manifest.lock */ = {
@@ -560,7 +503,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D563E88C05B417405DD51CBC /* Pods-ZFNetWorkTool_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -584,7 +526,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E81D96A49AC29BAFBD19D4B4 /* Pods-ZFNetWorkTool_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
