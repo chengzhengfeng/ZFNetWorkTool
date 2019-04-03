@@ -20,7 +20,7 @@ TODO: Add long description of the pod here.
   s.author           = { '631781190@qq.com' => '631781190@qq.com' }
   s.source           = { :git => 'https://github.com/chengzhengfeng/ZFNetWorkTool.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 s.dependency 'AFNetworking', '~> 3.1.0'
 s.dependency 'MBProgressHUD', '~> 1.0.0'
 s.dependency 'MJExtension', '~> 3.0.13'
