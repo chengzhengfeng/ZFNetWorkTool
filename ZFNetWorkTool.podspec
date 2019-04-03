@@ -21,10 +21,11 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/chengzhengfeng/ZFNetWorkTool.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
+s.dependency 'AFNetworking', '~> 3.1.0'
+s.dependency 'MBProgressHUD', '~> 1.0.0'
+s.dependency 'MJExtension', '~> 3.0.13'
+s.user_target_xcconfig = { 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES' }
 
   s.source_files = 'ZFNetWorkTool/Classes/**/*'
-  s.dependency 'AFNetworking', '~> 3.1.0'
-  s.dependency 'MBProgressHUD', '~> 1.0.0'
-  s.dependency 'MJExtension', '~> 3.0.13'
 
 end
